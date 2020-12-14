@@ -1,6 +1,6 @@
 {
   "name": "@bloodworks/bloody-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React component library",
   "author": "snigo <snigo.ogins@gmail.com>",
   "homepage": "https://github.com/snigo/lerna-react-tutorial#readme",
@@ -28,7 +28,7 @@
     "url": "https://github.com/snigo/lerna-react-tutorial/issues"
   },
   "dependencies": {
-    "@bloodworks/mathfuncs": "^0.1.0"
+    "@bloodworks/mathfuncs": "^0.1.1"
   },
   "peerDependencies": {
     "react": ">=16.8.0"
