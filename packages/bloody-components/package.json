@@ -21,7 +21,7 @@
     "url": "git+https://github.com/snigo/lerna-react-tutorial.git"
   },
   "scripts": {
-    "build": "pika build",
+    "build": "pika build && copyfiles -f ./src/bdbox.css pkg/dist-node",
     "publish": "npm publish pkg"
   },
   "bugs": {
@@ -29,6 +29,9 @@
   },
   "dependencies": {
     "@bloodworks/mathfuncs": "^0.1.1"
+  },
+  "devDependencies": {
+    "typescript-plugin-css-modules": "^3.0.1"
   },
   "peerDependencies": {
     "react": ">=16.8.0"
@@ -50,12 +53,6 @@
             "jsdelivr"
           ]
         }
-      ],
-      [
-        "@pika/plugin-build-umd"
-      ],
-      [
-        "@pika/plugin-bundle-types"
       ]
     ]
   }

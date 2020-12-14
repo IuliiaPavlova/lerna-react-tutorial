@@ -27,6 +27,9 @@
   "bugs": {
     "url": "https://github.com/snigo/lerna-react-tutorial/issues"
   },
+  "devDependencies": {
+    "typescript-plugin-css-modules": "^3.0.1"
+  },
   "@pika/pack": {
     "pipeline": [
       [
