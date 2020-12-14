@@ -21,7 +21,8 @@
     "url": "git+https://github.com/snigo/lerna-react-tutorial.git"
   },
   "scripts": {
-    "build": "pika build"
+    "build": "pika build",
+    "publish": "npm publish pkg"
   },
   "bugs": {
     "url": "https://github.com/snigo/lerna-react-tutorial/issues"
