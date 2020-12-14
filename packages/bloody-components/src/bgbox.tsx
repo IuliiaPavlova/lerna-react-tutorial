@@ -8,7 +8,11 @@ interface BgBoxProps {
 }
 
 const BgBox: FunctionComponent<BgBoxProps> = ({ imageUrl, bgColor = 'purple', number }) => (
-  <div className="bgbox" style={{backgroundColor: bgColor, backgroundImage: `url(${imageUrl})`}}>
+  <div className="bgbox">
+    <style>{`
+      background-color: ${bgColor};
+      background-image: 'url(${imageUrl})';
+    `}</style>
     { square(number) }
   </div>
 );
